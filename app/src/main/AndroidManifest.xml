@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Domoticon">
         <activity
+            android:name=".control2_activity"
+            android:exported="false" />
+        <activity
+            android:name=".control1_activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
