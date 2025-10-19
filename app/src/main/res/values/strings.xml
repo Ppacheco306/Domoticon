@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Domoticon</string>
+    <string name="number_of_devices">Number of devices</string>
+    <string name="control_panel">Control Panel</string>
+    <string name="Switch">Block</string>
+
+
 </resources>

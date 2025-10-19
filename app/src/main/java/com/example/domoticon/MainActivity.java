@@ -6,13 +6,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.domoticon.databinding.ActivityMainBinding;
 
@@ -43,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
                 String opcion = parent.getItemAtPosition(position).toString();
                 switch (opcion){
                     case "2":
-                        startActivity(new Intent(MainActivity.this , control1_activity.class));
+                        startActivity(new Intent(MainActivity.this , Control1Activity.class));
                     break;
                     case "3":
-                        startActivity(new Intent(MainActivity.this , control2_activity.class));
+                        startActivity(new Intent(MainActivity.this , Control2Activity.class));
                     break;
                 }
             }
@@ -56,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
+
+
+
 }

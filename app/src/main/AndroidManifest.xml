@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Domoticon">
         <activity
-            android:name=".control2_activity"
+            android:name=".Control2Activity"
             android:exported="false" />
         <activity
-            android:name=".control1_activity"
+            android:name=".Control1Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
